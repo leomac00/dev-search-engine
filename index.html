@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Desafio - módulo 01</title>
+		<!-- <link rel="stylesheet" href="styles.css" /> -->
+	</head>
+	<body>
+		<h1>RH Bootleg</h1>
+		<form>
+			<div id="inputBox">
+				<label
+					>Nome:
+					<input
+						id="name"
+						type="text"
+						placeholder="Procure pelo dev aqui!"
+						autofocus
+				/></label>
+			</div>
+
+			<div id="checkboxes">
+				<label
+					>Linguagens: <input type="checkbox" id="java" />Java
+					<input type="checkbox" id="javascript" />JavaScript
+					<input type="checkbox" id="python" />Python
+				</label>
+      </div>
+      
+      <div id="checkboxes">
+				<label
+					><input type="radio" id="radioAnd" name="radio" checked/>E
+					<input type="radio" id="radioOr" name="radio"/>OU
+				</label>
+      </div>
+		</form>
+
+		<div id="results"></div>
+		<script defer src="main.js"></script>
+	</body>
+</html>
